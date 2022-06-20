@@ -106,7 +106,7 @@
         min-height: 40vh;
         background-color: var(--cream);
       }
-      .game-holder p {
+       #intro,#last-text {
         animation-name: text;
         animation-duration: 4s;
         color: black;
@@ -147,4 +147,7 @@
         0% {
           color: black;
         }
+      }
+      #last-text{
+        display: none;
       }
