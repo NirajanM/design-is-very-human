@@ -140,14 +140,25 @@
       }
       #temporary {
         animation-name: temporary;
-        animation-duration: 2s;
+        animation-duration: 2.5s;
         color: var(--cream);
       }
       @keyframes temporary {
         0% {
           color: black;
         }
+        70%{
+          color: rgb(39, 39, 39);
+        }
       }
       #last-text{
         display: none;
+      }
+      footer{
+        position: absolute;
+        bottom: 1rem;
+        color: var(--black);
+      }
+      footer i{
+        font-weight: bold;
       }
