@@ -38,3 +38,16 @@ function myFunction() {
     hellNo.style.transform = `translate(${random*100}px,${random1*100}px)`;
 
   }
+  function GreetHim()
+  {
+    let question = document.getElementById("question");
+    let yes = document.getElementById("yes");
+    let temporary = document.getElementById("temporary");
+    let hellNo = document.getElementById("hell-no");
+    let lastText = document.getElementById("last-text");
+    question.style.display = "none";
+    yes.style.display = "none";
+    temporary.style.display = "none";
+    hellNo.style.display = "none";
+    lastText.style.display = "inline";
+  }
