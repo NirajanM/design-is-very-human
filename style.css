@@ -81,11 +81,15 @@
       }
       header {
         position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100vw;
-        background-color: var(--candy);
+        background-color: black;
         text-align: center;
-        color: var(--black);
+        color: white;
         height: 2rem;
+        font-size: 0.8rem;
       }
       .container {
         display: flex;
@@ -153,6 +157,8 @@
       }
       #last-text{
         display: none;
+        font-size: large;
+        font-weight: bolder;
       }
       footer{
         position: absolute;
