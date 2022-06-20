@@ -1,5 +1,4 @@
 # foolYou
-just a normal day of coding,
-I packed all of the css, html and js in a single index.html file, took about hours for first push.
+just made for fun and to engage in coding activities
 
 have fun LOL XD
