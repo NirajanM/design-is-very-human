@@ -168,3 +168,7 @@
       footer i{
         font-weight: bold;
       }
+      #rick-rolled{
+        display: none;
+        width: 40vw;
+      }

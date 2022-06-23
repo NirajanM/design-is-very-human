@@ -45,9 +45,12 @@ function myFunction() {
     let temporary = document.getElementById("temporary");
     let hellNo = document.getElementById("hell-no");
     let lastText = document.getElementById("last-text");
+    let rickRoll = document.getElementById("rick-rolled");
     question.style.display = "none";
     yes.style.display = "none";
     temporary.style.display = "none";
     hellNo.style.display = "none";
     lastText.style.display = "inline";
+    rickRoll.style.display = "block";
+
   }
